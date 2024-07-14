@@ -32,7 +32,6 @@ Welcome to the **OLDAGED Script** repository! This script is designed to run sea
 
 ```## Installation
 
-1. Open Termux and update the package lists:
 
 
  bash
@@ -51,5 +50,5 @@ cd 2k11-10-old-aged-IG
 
 python OLDAGED.py
 
-enjoy```
+```
 
