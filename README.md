@@ -30,7 +30,7 @@ Welcome to the **OLDAGED Script** repository! This script is designed to run sea
 - **Versatile**: Runs smoothly on Termux, offering great utility for various tasks.
 - **Rich Integration**: Leverages popular Python packages like `rich`, `requests`, `pyfiglet`, and `telebot`.
 
-## Installation
+```## Installation
 
 1. Open Termux and update the package lists:
  
@@ -49,3 +49,6 @@ Welcome to the **OLDAGED Script** repository! This script is designed to run sea
 ```cd 2k11-10-old-aged-IG```
 
 ```python OLDAGED.py```
+
+*enjoy*```
+
