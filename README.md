@@ -36,6 +36,10 @@ Welcome to the **OLDAGED Script** repository! This script is designed to run sea
    
 pkg install python
 
+pkg install nodejs
+
+npm install -g cfonts
+
 pip install rich requests pyfiglet telebot cfonts
 
 pkg install git
