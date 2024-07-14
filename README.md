@@ -33,22 +33,23 @@ Welcome to the **OLDAGED Script** repository! This script is designed to run sea
 ```## Installation
 
 1. Open Termux and update the package lists:
- 
-   ```bash```
+
+
+ bash
    
-   ```pkg update && pkg upgrade```
+ pkg update && pkg upgrade
    
-```pkg install python```
+pkg install python
 
-```pip install rich requests pyfiglet telebot```
+pip install rich requests pyfiglet telebot
 
-```pkg install git```
+pkg install git
 
-```git clone https://github.com/xXENOMORPH/2k11-10-old-aged-IG.git```
+git clone https://github.com/xXENOMORPH/2k11-10-old-aged-IG.git
 
-```cd 2k11-10-old-aged-IG```
+cd 2k11-10-old-aged-IG
 
-```python OLDAGED.py```
+python OLDAGED.py
 
-*enjoy*```
+enjoy```
 
