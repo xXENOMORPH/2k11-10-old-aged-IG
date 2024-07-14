@@ -36,7 +36,7 @@ Welcome to the **OLDAGED Script** repository! This script is designed to run sea
    
 pkg install python
 
-pip install rich requests pyfiglet telebot
+pip install rich requests pyfiglet telebot cfonts
 
 pkg install git
 
