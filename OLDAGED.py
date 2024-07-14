@@ -2,32 +2,80 @@
 
 import webbrowser
 webbrowser.open("https://t.me/GODT00LS")
-import os
-import re
-import sys
-import time
-import random
-import requests
+
+import webbrowser
+import requests,re,random,os,sys
 from rich import print as g
 from rich.panel import Panel
 from threading import Thread
+from time import time
+from pyfiglet import Figlet
+import requests,re,random,os,sys
+from rich import print as g
+from rich.panel import Panel
+from threading import Thread
+from cfonts import render, say
+from threading import Thread
+import requests
+import os
+import time
+from time import time
+from hashlib import md5
+from user_agent import generate_user_agent
+from random import randrange
+from threading import Thread
+from requests import post as pp
+from user_agent import generate_user_agent as gg
+from random import choice as cc
+from random import randrange as okk
+from uuid import uuid5
+from threading import Thread
+import re
+from random import randrange as rr
+from random import choice as cc
+from user_agent import generate_user_agent as gg
+from requests import post as pp
 from pyfiglet import Figlet
 from datetime import datetime
-from user_agent import generate_user_agent
-from requests import post as pp
-from telebot import TeleBot, types
-import webbrowser
-
+import os
+import requests,re,random,os,sys
+from rich import print as g
+from rich.panel import Panel
+from threading import Thread
+from threading import Thread
+import re
+from random import randrange as rr
+from random import choice as cc
+from user_agent import generate_user_agent as gg
+from pyfiglet import Figlet
+import requests,re,random,os,sys
+from rich import print as g
+from rich.panel import Panel
+from threading import Thread
 def check_date():
     current_date = datetime.now().date()
-    target_date = datetime(2024, 8, 9).date()
+    target_date = datetime(2024, 8, 9)  .date()
     if current_date >= target_date:
         print('\n - New file in Telegram -> @GODT00LS')
         webbrowser.open("https://t.me/GODT00LS")
         exit()
 
-check_date()
+check_date()     
+import os,requests,random,secrets
+from pyfiglet import Figlet
+from uuid import uuid4
+from user_agent import generate_user_agent
+import telebot 
+from telebot import types
+import re,json,time
+	try:
+    import mechanize
+except ImportError:
+    os.system('pip install mechanize')
+    os.system('clear')
+    import mechanize
 
+# Define colors
 E = '\033[1;31m'
 G = '\033[1;35m'
 Z = '\033[1;31m'
@@ -41,42 +89,18 @@ Y = '\033[1;34m'
 M = '\x1b[1;37m'
 S = '\033[1;33m'
 
-def zal():
-    zao = f"""{B}
-{B}
-███████╗██╗░░██╗██████╗░░█████╗░
-██╔════╝██║░░██║██╔══██╗██╔══██╗
-█████╗░░███████║██████╔╝███████║
-██╔══╝░░██╔══██║██╔══██╗██╔══██║
-███████╗██║░░██║██║░░██║██║░░██║
-╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝"""
-    for o in zao.splitlines():
-        time.sleep(0.20)
-        print(o)
-
-zal()
-print(Z1 + '')
-tok = input(X + 'ENTER-Token: ')
+tok=input(X+'ENTER-Token : ')
 print("\x1b[1;32m")
-
 fig = Figlet(font='poison')
-logo = fig.renderText('GMAIL')
+logo = fig.renderText(f'GMAIL')
 print(logo)
-id = input(B + 'ENTER-ID: ')
-print(Z1 + '')
-
-bb = []
-
+id=input(B+'ENTER-ID  : ')
+print(Z1+'')
+bb=[]
 def em(user):
-    global bb
-    email = str(user)
-    try:
-
-        pass
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
-
+			global bb
+			email=str(user)
+			try:
 			         url = 'https://b.i.instagram.com/api/v1/accounts/login/'
 			         headers = {'User-Agent':'Instagram 113.0.0.39.122 Android (24/5.0; 515dpi; 1440x2416; huawei/google; Nexus 6P; angler; angler; en_US)',  'Accept':'*/*',
                  'Cookie':'missing',
