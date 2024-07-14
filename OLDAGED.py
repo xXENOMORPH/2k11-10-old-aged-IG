@@ -13,8 +13,7 @@ from pyfiglet import Figlet
 import requests,re,random,os,sys
 from rich import print as g
 from rich.panel import Panel
-from threading import Thread
-from cfonts import render, say
+from threading import Thread 
 from threading import Thread
 import requests
 import os
@@ -54,7 +53,7 @@ from rich.panel import Panel
 from threading import Thread
 def check_date():
     current_date = datetime.now().date()
-    target_date = datetime(2024, 8, 9)  .date()
+    target_date = datetime(2024, 9, 9)  .date()
     if current_date >= target_date:
         print('\n - New file in Telegram -> @GODT00LS')
         webbrowser.open("https://t.me/GODT00LS")
@@ -69,26 +68,37 @@ import telebot
 from telebot import types
 import re,json,time
 try:
-    import mechanize
-except ImportError:
-    os.system('pip install mechanize')
-    os.system('clear')
-    import mechanize
-
-# Define colors
+	import mechanize
+except:
+	os.system('pip install mechanize')
+	os.system('clear')
+	import mechanize
 E = '\033[1;31m'
 G = '\033[1;35m'
-Z = '\033[1;31m'
-X = '\033[1;33m'
-Z1 = '\033[2;31m'
-F = '\033[2;32m'
-A = '\033[2;34m'
-C = '\033[2;35m'
-B = '\033[2;36m'
-Y = '\033[1;34m'
-M = '\x1b[1;37m'
+Z = '\033[1;31m'#
+X = '\033[1;33m' #
+Z1 = '\033[2;31m' #احمر ثاني
+F = '\033[2;32m' #اخضر
+A = '\033[2;34m'#ازرق
+C = '\033[2;35m' #وردي
+B = '\033[2;36m'#سمائي
+Y = '\033[1;34m' #ازرق فاتح
+M = '\x1b[1;37m'#ابیض
 S = '\033[1;33m'
-
+def zal():	
+	zao = (f"""{B} 
+{B} 
+███████╗██╗░░██╗██████╗░░█████╗░
+██╔════╝██║░░██║██╔══██╗██╔══██╗
+█████╗░░███████║██████╔╝███████║
+██╔══╝░░██╔══██║██╔══██╗██╔══██║
+███████╗██║░░██║██║░░██║██║░░██║
+╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝""")
+	for o in zao.splitlines():
+		time.sleep(0.20)
+		print(o)
+zal()
+print(Z1+'')
 tok=input(X+'ENTER-Token : ')
 print("\x1b[1;32m")
 fig = Figlet(font='poison')
@@ -284,3 +294,4 @@ for i in range(100):
 	x = threading.Thread(target=ehra);x.start();Threads.append(x)
 	for zxn in Threads:
 		zxn.join
+		
