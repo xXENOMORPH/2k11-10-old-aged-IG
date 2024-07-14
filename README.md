@@ -32,8 +32,6 @@ Welcome to the **OLDAGED Script** repository! This script is designed to run sea
 
 ```## Installation
 
- bash
-   
  pkg update && pkg upgrade
    
 pkg install python
