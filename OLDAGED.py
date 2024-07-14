@@ -68,7 +68,7 @@ from user_agent import generate_user_agent
 import telebot 
 from telebot import types
 import re,json,time
-	try:
+try:
     import mechanize
 except ImportError:
     os.system('pip install mechanize')
